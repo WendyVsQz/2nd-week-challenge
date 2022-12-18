@@ -1,0 +1,83 @@
+* {
+  box-sizing: border-box;
+  background-color: darkgray;
+}
+
+body {
+  background-color: rgb(35, 85, 129);
+  margin: 0;
+  padding: 0;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  line-height: 1.5;
+  border-left-style: solid;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+img{
+    border-left-style: solid;
+    border-top-style: solid;
+    border-top-width: 190px;
+    padding-top: 0px;
+    margin-top: -138px;
+    width: 2093px;
+    height: 313.33px;
+    padding-bottom: -48px;
+    border-bottom-style: solid;
+    margin-bottom: 0px;
+    border-left-width: 0px;
+    margin-left: -9px;
+    border-bottom-width: 0px;
+}
+.proj1{
+  padding: 0px;
+  margin: 0px;
+}
+.project2{
+  padding: 0px;
+  margin: 0px;
+}
+.project3{
+  padding: 0px;
+  margin: 0px;
+}
+.project4{
+  padding: 0px;
+  margin: 0px;
+}
+.project5{
+  
+}
+
+.lines{
+  
+}
+
+.flex{
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-basis: calc(50%-1em);
+}
+
+.flex-item div {
+  background-color: blue;
+  padding: 10px;
+}
+@media screen and (max-width: 768px) {
+  .flex-item{
+  flex-item:100%;
+
+  }
+}
